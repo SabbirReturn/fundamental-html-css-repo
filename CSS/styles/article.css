@@ -13,3 +13,12 @@ h1{
 
     
 }
+.title{
+    color: aquamarine;
+    height: 1500px;
+    background-image: url('../image/20230129_025939.jpg');
+    /* background-size: 00px 500px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
