@@ -13,16 +13,32 @@ nav > ul{
 nav ul li{
     list-style: none;
     padding: 5px;
-    margin-bottom: 50px;
-    margin-top: 10px;
+    /* margin-bottom: 50px; */
+    /* margin-top: 10px; */
     
 }
 nav a{
     text-decoration: none;
     color: black
 }
-nav li:hover{
+nav a:hover{
     background-color: lightgray;
     border: 1px solid rebeccapurple;
     border-radius: 10px;
+    /* padding: 10px; */
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    
+}
+nav li:hover .dropdown{
+    display: block;
+    background-color: bisque;
+}
+.drop{
+    display: none;
+}
+nav li .log:hover .drop{
+    display: block;
 }
