@@ -5,3 +5,24 @@ th,td{
     border: 1px solid red;
     padding: 5px;
 }
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black
+}
+nav li:hover{
+    background-color: lightgray;
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+}
