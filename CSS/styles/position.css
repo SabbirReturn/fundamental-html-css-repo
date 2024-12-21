@@ -2,3 +2,17 @@
     border: 2px dotted plum;
     width: 200px;
 }
+/* .ring{
+    position: relative;
+    left: 50px;
+    top: -30px;
+} */
+ .ring{
+    position: absolute;
+    top: 40px;
+ }
+ .swim-conteiner{
+    position: relative;
+    border: 2px solid blue;
+    /* width: 300px; */
+ }
