@@ -11,3 +11,17 @@
 .water{
     top: -150px;
 }
+h1::after{
+    content: '.pdf';
+    font-size: 10px;
+}
+h1::before{
+    content: 'Start ';
+}
+p::first-letter{
+    font-size: 3em;
+}
+::selection{
+    background: yellow;
+    color: red;
+}
