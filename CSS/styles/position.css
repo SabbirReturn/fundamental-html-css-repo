@@ -2,17 +2,26 @@
     border: 2px dotted plum;
     width: 200px;
 }
-/* .ring{
+.ring{
     position: relative;
     left: 50px;
     top: -30px;
-} */
- .ring{
+}
+ /* .ring{
     position: absolute;
     top: 40px;
- }
+ } */
  .swim-conteiner{
-    position: relative;
+    /* position: relative; */
     border: 2px solid blue;
-    /* width: 300px; */
+    width: 300px;
  }
+ .dumy{
+    border: 1px solid turquoise;
+    width: 200px;
+    height: 200px;
+ }
+.ring{
+    position: sticky;
+    top: 0px;
+}
