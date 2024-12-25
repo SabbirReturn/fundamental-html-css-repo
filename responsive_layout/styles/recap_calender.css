@@ -1,17 +1,17 @@
-.calender{
+.Calender{
     display: grid;
-    grid-template-columns:repeat(7,100px);
-    grid-template-rows:30px repeat(5,50px);
-    row-gap: 20px;
+    grid-template-columns: repeat(7,100px);
+    grid-template-rows: 30px repeat(5,50px);
     column-gap: 10px;
+    row-gap: 20px;
 }
-.date,.day{
+.item,.day{
     background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5em;
     border-radius: 10px;
+    font-size: 1.5em;
 }
 .day{
     background-color: lightgray;
