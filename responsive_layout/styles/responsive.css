@@ -1,0 +1,23 @@
+.responsive{
+    /* border: 1px solid red; */
+    max-width: 800px;
+    margin: 0px auto;
+}
+.image-container{
+    display: flex;
+    gap: 20px;
+}
+.image-container img{
+    width: 100%;
+}
+.image-container div{
+    width: 50%;
+}
+
+/* small device */
+@media screen and (max-width:576px) {
+    .image-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
